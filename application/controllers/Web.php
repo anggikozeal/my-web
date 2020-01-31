@@ -10,7 +10,7 @@ class Web extends CI_Controller {
 	public function index()
 	{
         $data['judul'] = "Halaman Depan";
-		$this->load->view('v-index', $data);
+		$this->load->view('v_index', $data);
     }
     
 }
